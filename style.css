@@ -12,11 +12,12 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .heading{
     width: 50%;
     padding-left: 50px;
-    margin-left: 40px;
+    margin-left: 40px; 
 }
 img{
     width: 60%;
@@ -38,4 +39,7 @@ img{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.vhai{
+    width: 50%;
 }

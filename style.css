@@ -10,30 +10,44 @@ h1{
 .wab{
     color: #FFA500;
 }
-section{
+ .flex-section{
     display: flex;
     margin-bottom: 100px;
 }
 .heading{
     width: 50%;
     padding-left: 50px;
-    margin-left: 40px; 
+    padding-left: 30px;
+    margin-left: 40px;  
+    text-align: justify;
 }
 img{
-    width: 60%;
+    width: 70%;
     padding-left: 30px;
     
 }
 .btn{
     text-decoration: none;
-   /* background-color: blue; */
+   background-color: blue; 
    color: white;
-    /* background-image:
+     background-image:
      linear-gradient
-     (rgb(158, 117, 42), tomato); */
+     (rgb(158, 117, 42), tomato); 
     padding: 10px;
     border-radius: 5px;
     
+
+}
+.btn-2{
+
+    text-decoration: none;
+    padding: 10px;
+    /* background-color: blue;  */
+    color: white;
+      background-image: linear-gradient(red, blue);
+    /* padding-top: 18px; */
+    margin-top: 17px;
+     border-radius: 5px;
 
 }
 .top{
@@ -41,5 +55,58 @@ img{
     background-repeat: no-repeat;
 }
 .vhai{
+    width: 40%;
+}
+    .ohhh h1 {
+        padding-bottom: 20px;
+        
+
+
+    }
+.ohhh h2 {
+    text-decoration: none;
+    padding-bottom: 18px;
+}
+
+.ohhh{
     width: 50%;
+}
+
+.ohhh p{
+    text-align: justify;
+}
+ 
+ .two {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 60px;
+ }
+ .developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    padding-right: 17px;
+   
+    box-shadow: 10px 10px 10px 10px gray;
+   
+ }
+
+ #d01{
+    border-left: 7px solid red ;
+ }
+ #d02{
+    border-left: 7px solid blue ;
+ }
+.nom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+footer p{
+    text-align: center;
 }
